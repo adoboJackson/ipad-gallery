@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+	<title>
+		Madden Media : Rich Media Advertising Gallery
+		<%
+			myPath = Request.ServerVariables("PATH_INFO")
+			myLength = Len(myPath)
+
+			myPath = Right(myPath, myLength - 11)
+
+			myPathArray = Split(myPath, "/")
+
+			if myPathArray(0) <> "index.html" then
+				response.write " : " & myPathArray(0) & " : " & myPathArray(1)
+			end if
+
+		%>
+		 : Sample
+	</title>
+
+	<meta name="keywords" content="rich media, rich media advertising, banner advertising, Flash banners, Flash design, online advertising, video advertising, video ads, online marketing, Flash advertising, rich media ads, banner placement, banner ads, media buying, rich media buying, rich media placement, rich media design, travel marketing, tourism marketing, travel and tourism marketing, Flash ads, online Flash ads, marketing ads">
+	<meta name="description" content="Madden Media specializes in Rich Media advertising for the travel and tourism industry. Maddenmedia conceptualizes, designs and places media buys for Rich Media banner advertisements. Visit MaddenMedia.com today!">
+
+	<link rel="shortcut icon" href="http://www.maddenmedia.com/favicon.ico" >
+
+</head>
+<body style="margin: 0px; padding: 0px; background-color: #7ba46a;">
+
+<div style='width: 100%; padding: 4px; background: #ffffcc; border-bottom: 2px solid #999999; font-family: arial, helvetica, sans-serif; font-size: 12px;'>Note: Website shown is for demo purposes only and not necessarily a participant in ad campaign. Creative displayed may not be built to final specifications.</div>

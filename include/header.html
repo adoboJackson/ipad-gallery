@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+	<title>
+		Madden Media : Rich Media Advertising Gallery
+	</title>
+	<meta name="keywords" content="rich media, rich media advertising, banner advertising, Flash banners, Flash design, online advertising, video advertising, video ads, online marketing, Flash advertising, rich media ads, banner placement, banner ads, media buying, rich media buying, rich media placement, rich media design, travel marketing, tourism marketing, travel and tourism marketing, Flash ads, online Flash ads, marketing ads">
+	<meta name="description" content="Madden Media specializes in Rich Media advertising for the travel and tourism industry. Maddenmedia conceptualizes, designs and places media buys for Rich Media banner advertisements. Visit MaddenMedia.com today!">
+
+	<link rel="shortcut icon" href="http://www.maddenmedia.com/favicon.ico" >
+
+	<link href="http://www.maddenmedia.com/richmedia/css/richmedia.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+<div id="wrapper">
+
+<%
+	Set MyBrow=Server.CreateObject("MSWC.BrowserType")
+
+	if MyBrow.browser = "IE" and MyBrow.version < 7 and MyBrow.version >= 6 then
+		%>
+			<div style="background: #FFAAAA; padding: 20px; margin-bottom: 10px;">
+				<strong>Warning: </strong> This layout of this demonstration page may not render correctly in IE 6
+			</div>
+		<%
+	end if
+%>
+
+<div id="header">
+	<div style="float: left;"><a href="http://www.maddenmedia.com"><img src="http://www.maddenmedia.com/richmedia/img/logo.gif" border="0" width="150" height="83"></a></div>
+	<div style="float: right;"><h1><a href="http://www.maddenmedia.com/richmedia">Rich Media Ad Gallery</a></h1></div>
+	<div style="clear: both"></div>
+</div>
